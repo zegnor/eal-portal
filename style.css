@@ -1,0 +1,332 @@
+@font-face{
+	font-family: frutiger;
+	src:url(frutiger.otf) format("opentype");
+}
+
+@font-face{
+	font-family: frutiger_light;
+	src:url(frutiger_light.ttf) format("opentype");
+}
+
+@font-face{
+	font-family: DINEN;
+	src:url(DINEN.ttf) format("opentype");
+}
+
+
+
+.logo {
+	width: 10%;
+	height: : 50%;
+	margin-left: 20%;
+	padding-top: 20px;
+
+}
+
+.corner{
+	float: right;
+	margin-right: 20%;
+	padding-top: 15px;
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+    font-size:26px;   
+    width: 90%;
+}
+
+.navigation li {
+	display: inline;
+	overflow: hidden;
+	border: 1px;
+	background-color: #289199;
+	width: 300px;
+	display: inline-block;
+	
+
+}
+
+.navigation li a {
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px 5% 2px 5%;
+    font-family: DINEN;
+    text-transform:  uppercase;
+    }
+
+ .navigation li:hover {
+    background-color: #006f79;
+}
+
+
+.search {
+	padding: 0 5%;
+	float: center;
+	margin-left: 20%;
+	margin-bottom: 15px;
+	text-align:center;
+
+}
+
+
+input {
+
+}
+
+header {
+	background-color: white;
+}
+
+body {
+	font-family: frutiger_light;
+	background-color: #d0e5e6 ;
+	margin:0;
+}
+
+
+.headline {
+	background-color: #289199;
+	font-family: DINEN;
+	text-align: center;
+	color: white;
+	padding: 5px;
+	margin-bottom: 0;
+	margin-top: 0;
+
+
+	
+}
+
+.picture img{
+	width:100%;
+}
+
+.picture {
+	background-color: white;
+	padding-bottom: 5%;
+}
+
+.container{
+	width: 100%;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	height: 300px;
+}
+
+.filter_container {
+	padding-left: 10%;
+}
+.column1 {
+	float:left;
+	width: 70%;
+	margin-left:20%;
+	margin-bottom: 5%;
+	background-color: white;
+
+	}
+
+.column2{
+	float:left;
+	width: 20%;
+	margin-left:20%;
+	background-color: white;
+	padding-bottom: 3%;
+	padding-top: 0;
+}
+
+.column3{
+	float: left;
+	width: 40%;
+	margin-left: 2%;
+	margin-top: 0;
+	background-color: white;
+}
+
+.column_small1 {
+	float: left;
+	width: 20%;
+	margin-left: 2%;
+	background-color: white;
+	padding-left:  3%;
+}
+
+.profiles{
+	float: left;
+	width: 40%;
+	margin-left: 2%;
+	margin-top: 0;
+	background-color: white;
+	height: 250px;
+	margin-bottom: 30px;
+}
+
+.images {
+	float: left;
+}
+.text{
+	float: left;
+	width: 30%;
+	padding-left: 15px;
+
+}
+.column_small2 {
+	float: left;
+	width: 255px;
+	background-color: white;
+	padding-top: 9%;
+	padding-bottom: 2.7%;
+
+}
+
+
+.column1 img:hover{
+	    -webkit-filter: drop-shadow(8px 8px 10px #006f79); /* Safari */
+    filter: drop-shadow(8px 8px 10px #006f79);
+
+}
+
+.box {
+	width: 90%;
+}
+
+.background{
+	background-color: black;
+}
+
+footer{
+	background-color: #289199;
+	height: 350px;
+	color:white;
+	font-family: frutiger;
+	margin-top: 30px;
+}
+
+.container_big {
+	width: 100%;
+	height: 900px;
+	padding-top: 30px;
+}
+
+.footer_long {
+	width: 70%;
+	margin: 0 auto;
+	height: 170px;
+}
+
+.footer_small {
+	width: 25%;
+	float: left;
+}
+
+footer li {
+	list-style-type: none;
+	font-size: 14px;
+	font-family: frutiger_light;
+}
+
+.footer_small2{
+	width:50%;
+	float: left;
+}
+
+.container_footer{
+	width: 50%;
+	float: left;
+}
+
+.social {
+	width: 45%;
+	float: left;
+	display: flex;
+	padding-left: 5%;
+	padding-top: 40px;
+	
+}
+.social img{
+	width: 60px;
+	height: 60px;
+	padding-right: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+#bottom{
+	margin-top: 35px;
+
+}
+
+.container_comp{
+	width: 70%;
+	margin: 0 auto;
+	height: 600px;
+	padding-top:30px;
+	
+}
+
+.register{
+	float: left;
+	height: 550px;
+	width: 40%;
+	background-color: white;
+	margin: 5% 5%;
+	padding: 0;
+}
+.comp_img img{
+	width: 100%;
+}
+
+.text_comp{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.text_comp h3{
+	color: grey;
+}
+
+.text_comp h2{
+	color: #006f79;
+}
+
+.register img:hover{
+	 -webkit-filter: drop-shadow(8px 8px 10px #006f79); /* Safari */
+    filter: drop-shadow(8px 8px 10px #006f79);
+}
+
+.new_container{
+	background-color:#73bdc1;
+	margin: 0 auto;
+	height: 700px;
+	width: 100%;
+}
+
+.relations_container{
+	background-color: white;
+	height: 380px;
+	float: left;
+	width: 70%;
+	margin: 10% 15% 30px 15%;
+	
+
+	
+}
+
+
+.users {
+	margin: 2% ;
+	width: 10%;
+	float: left;
+	text-align: center;
+	padding-bottom: 15px;
+	
+}
+
+.login-container{
+	width: 70%;
+	margin: 0 30%;
+}
